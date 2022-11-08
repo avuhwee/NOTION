@@ -49,7 +49,7 @@
       "july", "august", "september", "october", "november", "december"
     ];
 
-    
+    theme: minima
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
@@ -72,4 +72,4 @@
     `;
 </script> 
 </html>
-theme: minima
+
